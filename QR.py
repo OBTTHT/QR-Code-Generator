@@ -50,3 +50,5 @@ response = requests.get(endpoint + orn + color)
 img = Image.open(BytesIO(response.content))
 
 img.save("qr.png")
+
+print("Dosya Kaydedildi!")
